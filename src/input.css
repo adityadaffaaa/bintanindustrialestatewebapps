@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition-default {
+  @apply transition-all ease-in-out duration-300;
+}
+
+.carousel-service .swiper-pagination-bullet {
+  @apply bg-main h-4 w-4;
+}
+.carousel-adventage .swiper-pagination-bullet {
+  @apply bg-main h-4 w-4;
+}
+.carousel-product .swiper-button-next,
+.carousel-product .swiper-button-prev {
+  @apply text-main transition-default hover:text-secondary;
+}
+.carousel-tenant .swiper-button-next,
+.carousel-tenant .swiper-button-prev {
+  @apply text-neutral10 transition-default hover:scale-125;
+}
+
+.carousel-department .swiper-button-next,
+.carousel-department .swiper-button-prev {
+  @apply text-main transition-default hover:text-secondary;
+}

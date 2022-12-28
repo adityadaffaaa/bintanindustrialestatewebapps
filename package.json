@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "bie": "^0.0.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "init": "^0.1.2"
+  }
+}

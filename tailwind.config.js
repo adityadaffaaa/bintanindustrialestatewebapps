@@ -1,0 +1,52 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./dist/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        main: "#65B084",
+        secondary: "#CDB84B",
+        ternary: "#D96077",
+        neutral10: "#FFFFFF",
+        neutral20: "#F5F5F5",
+        neutral30: "#EDEDED",
+        neutral40: "#E0E0E0",
+        neutral50: "#C2C2C2",
+        neutral60: "#9E9E9E",
+        neutral70: "#757575",
+        neutral80: "#616161",
+        neutral90: "#404040",
+        neutral100: "#000000",
+        lilypads100: "#F0F7F3",
+        lilypads200: "#E1F0E7",
+        lilypads300: "#C4E1CF",
+        lilypads400: "#A6D1B8",
+        lilypads500: "#89C2A0",
+        lilypads600: "#6BB388",
+        lilypads700: "#568F6D",
+        lilypads800: "#406B52",
+        lilypads900: "#2B4836",
+        lilypads1000: "#15241B",
+        background1: "#FFFFFF",
+        background2: "#EAF4EE",
+      },
+      fontFamily: {
+        montserrat: "Montserrat",
+      },
+      fontSize: {
+        heading1: ["80px", { fontWeight: "800" }],
+        heading2: ["40px", { fontWeight: "700" }],
+        heading3: ["30px", { fontWeight: "700" }],
+        paragraphXL: ["20px", { fontWeight: "700" }],
+        paragraphXLR: ["20px", { fontWeight: "400" }],
+        paragraphL: ["16px", { fontWeight: "400" }],
+        paragraphM: ["14px", { fontWeight: "400" }],
+        paragraphS: ["12px", { fontWeight: "400" }],
+      },
+      boxShadow: {
+        default: "0px 4px 24px rgba(0, 0, 0, 0.1)",
+      },
+    },
+  },
+  plugins: [],
+};

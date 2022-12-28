@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIE</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="../output.css" />
+    <!-- icon -->
+    <link rel="icon" href="../../assets/Logo BIE 2.svg" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../swiperjs/swiper-bundle.min.css" />
+  </head>
+  <body class="font-montserrat h-[5000px]">
+    <!-- navbar -->
+    <header class="flex w-full fixed top-0 z-[99999] justify-between items-center py-4 px-16">
+      <div class="flex gap-3">
+        <img class="h-10" src="../../assets/ISO1.svg" alt="" />
+        <img class="h-10" src="../../assets/ISO2.svg" alt="" />
+        <img class="h-10" src="../../assets/Logo BIE 2.svg" alt="" />
+      </div>
+      <div class="flex gap-10 items-center">
+        <ul class="flex gap-10 text-lilypads400 text-paragraphXLR">
+          <li><a class="active text-lilypads700 relative after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-secondary after:-bottom-1 after:right-0" href="#">Home</a></li>
+          <li><a class="transition-default hover:text-lilypads700 relative after:content-[''] after:absolute after:w-0 hover:after:w-full after:h-[3px] after:bg-secondary after:-bottom-1 after:right-0" href="#">Products</a></li>
+          <li><a class="transition-default hover:text-lilypads700 relative after:content-[''] after:absolute after:w-0 hover:after:w-full after:h-[3px] after:bg-secondary after:-bottom-1 after:right-0" href="#">Service</a></li>
+          <li><a class="transition-default hover:text-lilypads700 relative after:content-[''] after:absolute after:w-0 hover:after:w-full after:h-[3px] after:bg-secondary after:-bottom-1 after:right-0" href="#">Contact</a></li>
+        </ul>
+        <svg class="fill-main cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+          />
+        </svg>
+      </div>
+    </header>
+    <!-- navbar end -->
+    <!-- hero -->
+    <section class="w-full h-[806px] bg-lilypads100 relative">
+      <div class="w-full h-[545px] translate-y-20 bg-[url('../../assets/Acsess.png')] bg-cover flex justify-center items-center">
+        <div class="flex flex-row w-full mx-16 items-center justify-between">
+          <div class="flex flex-col max-w-[45%] gap-8 items-start">
+            <div class="flex flex-col">
+              <h1 class="text-heading1 text-main">FROM ZERO TO HERO</h1>
+              <p class="text-paragraphL text-neutral80">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidunt ut laoreetaww dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              </p>
+            </div>
+            <a class="px-20 py-3 rounded-xl bg-main inline-block text-paragraphL font-bold text-neutral10 transition-default hover:bg-secondary" href="#">Read More</a>
+          </div>
+          <img class="h-[495px]" src="../../assets/Banner.png" alt="" />
+        </div>
+      </div>
+      <div class="absolute w-full -bottom-32 flex justify-center">
+        <div class="w-[90%] py-8 rounded-xl bg-neutral10 shadow-default flex flex-col items-center gap-8">
+          <div class="flex flex-col items-center max-w-[90%] gap-2">
+            <div class="flex flex-col items-center">
+              <h2 class="text-heading2 text-main">PT BINTAN INTI INDUSTRIAL ESTATE</h2>
+              <p class="text-paragraphL text-main">VISI MISI PERUSAHAAN</p>
+            </div>
+            <p class="text-paragraphL text-center text-neutral80">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text.
+            </p>
+          </div>
+          <a class="text-paragraphL font-bold text-main" href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+    <!-- service -->
+    <section class="w-full mt-[208px] flex justify-center mb-20">
+      <div class="flex flex-row w-[90%] justify-between">
+        <img class="h-[410px]" src="../../assets/ILUSTRASI .png" alt="" />
+        <!-- carousel service -->
+        <div class="swiper carousel-service my-[52px] relative">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Service</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">INFRASTRUCTURE BIE POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Service</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">INFRASTRUCTURE BIE POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Service</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">INFRASTRUCTURE BIE POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- carousel service end -->
+      </div>
+    </section>
+    <!-- service end -->
+    <!-- our goals -->
+    <section class="w-full mb-20 bg-main flex justify-center">
+      <div class="w-[90%] py-8 flex flex-col gap-8 items-center">
+        <div class="flex flex-col items-center gap-2">
+          <h2 class="text-neutral10 text-heading2">OUR GOALS</h2>
+          <p class="text-neutral30 text-paragraphL">Kami menyediakan kesempatan untuk meningkatkan kulitas dan kauantitas dari perusahaan anda</p>
+        </div>
+        <div class="flex flex-row justify-between w-[70%]">
+          <div class="flex flex-col items-center text-neutral10">
+            <div class="flex flex-row gap-1">
+              <p class="text-paragraphXL">4000</p>
+              <p class="text-paragraphXL">Ha</p>
+            </div>
+            <p class="text-paragraphXL">Luas Lahan</p>
+          </div>
+          <div class="h-full w-1 bg-neutral10"></div>
+          <div class="flex flex-col items-center text-neutral10">
+            <div class="flex flex-row gap-1">
+              <p class="text-paragraphXL">17</p>
+              <p class="text-paragraphXL">+</p>
+            </div>
+            <p class="text-paragraphXL">Tenants</p>
+          </div>
+          <div class="h-full w-1 bg-neutral10"></div>
+          <div class="flex flex-col items-center text-neutral10">
+            <p class="text-paragraphXL">6.100</p>
+            <p class="text-paragraphXL">Pekerjaan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our goals end -->
+    <!-- adventage -->
+    <section class="w-full flex justify-center mb-20">
+      <div class="flex flex-row w-[90%] justify-between">
+        <!-- carousel adventage -->
+        <div class="swiper carousel-adventage my-[52px] relative">
+          <div class="swiper-wrapper mb-14">
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Adventage</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">THE FIRST OUR ADVENTAGE STRATEGIC LOCATION POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Adventage</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">THE FIRST OUR ADVENTAGE STRATEGIC LOCATION POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+            <div class="swiper-slide">
+              <!-- isi konten slide -->
+              <div class="flex flex-col items-start gap-4">
+                <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Adventage</a>
+                <div class="flex flex-col">
+                  <h2 class="text-main text-heading2">THE FIRST OUR ADVENTAGE STRATEGIC LOCATION POWER HOUSE</h2>
+                  <p class="text-paragraphL text-neutral80">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing eliteo, sed diam nona nonummy nibh euismod tincidlaoreetaww dolore magna aliquamw erat volutpat. Ut wisi enim adwaq veniam, bunos paratos quis nostrud exerci.
+                  </p>
+                </div>
+              </div>
+              <!-- isi konten slide end -->
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- carousel adventage end -->
+        <img class="h-[410px]" src="../../assets/ILUSTRASI ADVENTAGE.png" alt="" />
+      </div>
+    </section>
+    <!-- adventage end -->
+    <!-- our product -->
+    <section class="w-full h-[1080px] bg-lilypads100 flex items-center justify-center">
+      <div class="w-[90%] flex flex-col items-center gap-4">
+        <div class="w-3/4 flex flex-col items-center">
+          <a class="p-3 bg-[#F4F76F] text-[#F2A972] text-paragraphL font-bold rounded-xl flex justify-center w-[184px] transition-default hover:bg-main hover:text-neutral10" href="#">Product</a>
+          <h2 class="text-main text-heading2">OUR PRODUCT</h2>
+          <p class="text-paragraphL text-neutral80 text-center">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+          </p>
+        </div>
+        <!-- carousel product -->
+        <div class="wrap-carousel w-full">
+          <div class="swiper carousel-product">
+            <div class="swiper-wrapper mx-16 my-8">
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide flex justify-center -translate-x-16">
+                <div class="w-[302px] flex flex-col gap-12 group">
+                  <div class="py-10 h-[568px] w-full bg-main rounded-2xl transition-default group-hover:scale-110 cursor-pointer">
+                    <div class="w-full h-full bg-cover" style="background-image: url('../../assets/ILUS\ FIX\ 2-01\ 2.png')"></div>
+                  </div>
+                  <a
+                    class="p-3 bg-main text-neutral10 -translate-y-28 -z-10 group-hover:translate-y-0 group-hover:z-0 transition-default text-paragraphL font-bold rounded-xl flex justify-center w-full transition-default hover:bg-secondary hover:text-neutral10"
+                    href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <!-- carousel product end -->
+      </div>
+    </section>
+    <!-- our product end -->
+    <!-- Our tenant -->
+    <section class="w-full flex justify-center py-12 bg-main rounded-2xl">
+      <div class="w-[90%] flex flex-col items-center gap-8">
+        <div class="flex flex-col items-center">
+          <h2 class="text-neutral10 text-heading2">OUR TENANT</h2>
+          <p class="text-paragraphL text-neutral30 text-center">Come join with us and grow together.</p>
+        </div>
+        <!-- carousel tenant -->
+        <div class="swiper carousel-tenant w-full">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (1).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (2).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (3).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (3).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (4).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full flex flex-col items-center gap-4">
+                <img class="w-[98px]" src="../../assets/tenant (4).png" alt="" />
+                <div class="flex flex-col text-neutral10 items-center">
+                  <h3 class="text-heading3">COMPANY</h3>
+                  <p class="text-paragraphL">SLOGAN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- carousel tenant end -->
+      </div>
+    </section>
+    <!-- Our tenant end -->
+    <!-- team departmen -->
+    <section class="mt-20 w-full flex justify-center">
+      <div class="w-[90%] flex flex-col items-center">
+        <div class="flex flex-col w-3/4 items-center gap-3">
+          <div class="flex flex-col items-center">
+            <h2 class="text-heading2 text-main">TEAM DEPARTMENT</h2>
+            <p class="text-paragraphXLR text-main">Meet Our Team</p>
+          </div>
+          <p class="text-neutral80 text-paragraphM text-center">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+          </p>
+        </div>
+        <!-- carousel department -->
+        <div class="swiper carousel-department w-full">
+          <div class="swiper-wrapper mx-16 my-10">
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex justify-center w-full -translate-x-16">
+              <div class="p-6 flex flex-col w-[340px] h-[480px] items-center bg-neutral10 shadow-default rounded-2xl gap-3">
+                <div class="h-[304px] w-full bg-lilypads100 rounded-2xl flex justify-center items-end">
+                  <img class="h-[230px]" src="../../assets/icon-ilustrasi.jpg" alt="" />
+                </div>
+                <div class="flex flex-col items-center gap-4">
+                  <div class="flex flex-col items-center">
+                    <h3 class="text-heading3 text-main">PERSON NAME</h3>
+                    <p class="text-paragraphL text-main">DEPARTMENT NAME</p>
+                  </div>
+                  <p class="text-paragraphM text-neutral60 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- carousel department end -->
+      </div>
+    </section>
+    <!-- team departmen end -->
+  </body>
+  <!-- swiper js -->
+  <script src="../swiperjs/swiper-bundle.min.js"></script>
+  <!-- script carousel settings -->
+  <script src="../js/carousel.js"></script>
+</html>
