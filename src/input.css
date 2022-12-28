@@ -25,3 +25,7 @@
 .carousel-department .swiper-button-prev {
   @apply text-main transition-default hover:text-secondary;
 }
+.carousel-facilities .swiper-button-next,
+.carousel-facilities .swiper-button-prev {
+  @apply text-main transition-default hover:text-secondary;
+}

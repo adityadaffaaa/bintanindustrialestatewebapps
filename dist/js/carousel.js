@@ -54,3 +54,17 @@ var carouselDepartment = new Swiper(".carousel-department", {
     prevEl: ".swiper-button-prev",
   },
 });
+var carouselFacilities = new Swiper(".carousel-facilities", {
+  slidesPerView: 3,
+  spaceBetween: 10,
+  slidesPerGroup: 3,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+var carouselVideo = new Swiper(".carousel-video", {
+  effect: "cards",
+  grabCursor: true,
+});
