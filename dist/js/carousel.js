@@ -67,4 +67,12 @@ var carouselFacilities = new Swiper(".carousel-facilities", {
 var carouselVideo = new Swiper(".carousel-video", {
   effect: "cards",
   grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    draggable: true,
+  },
 });

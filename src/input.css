@@ -29,3 +29,13 @@
 .carousel-facilities .swiper-button-prev {
   @apply text-main transition-default hover:text-secondary;
 }
+.carousel-video .swiper-button-next,
+.carousel-video .swiper-button-prev {
+  @apply text-neutral10 transition-default hover:bg-secondary bg-main p-10 rounded-full scale-50 shadow-default;
+}
+.carousel-video .swiper-scrollbar .swiper-scrollbar-drag {
+  @apply bg-main;
+}
+.carousel-video .swiper-scrollbar {
+  @apply translate-y-8;
+}
