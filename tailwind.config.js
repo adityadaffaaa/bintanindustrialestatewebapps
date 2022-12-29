@@ -31,7 +31,7 @@ module.exports = {
         background2: "#EAF4EE",
       },
       fontFamily: {
-        montserrat: "Montserrat",
+        poppins: "Poppins",
       },
       fontSize: {
         heading1: ["80px", { fontWeight: "800" }],
