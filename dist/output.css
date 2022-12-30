@@ -547,6 +547,18 @@ video {
   }
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .visible {
   visibility: visible;
 }
@@ -743,40 +755,24 @@ video {
   height: 355px;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[70\] {
-  height: 70;
-}
-
-.h-\[704px\] {
-  height: 704px;
-}
-
-.h-\[2000px\] {
-  height: 2000px;
-}
-
-.h-\[px\] {
-  height: px;
-}
-
-.h-\[804px\] {
-  height: 804px;
-}
-
-.h-\[902px\] {
-  height: 902px;
-}
-
-.h-\[904px\] {
-  height: 904px;
+.h-\[3000px\] {
+  height: 3000px;
 }
 
 .h-\[750px\] {
   height: 750px;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-full {
@@ -819,6 +815,26 @@ video {
   width: 320px;
 }
 
+.w-\[326px\] {
+  width: 326px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .max-w-\[45\%\] {
   max-width: 45%;
 }
@@ -833,6 +849,10 @@ video {
 
 .max-w-\[460px\] {
   max-width: 460px;
+}
+
+.max-w-\[520px\] {
+  max-width: 520px;
 }
 
 .grow {
@@ -898,8 +918,16 @@ video {
   cursor: pointer;
 }
 
+.cursor-text {
+  cursor: text;
+}
+
 .resize {
   resize: both;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -986,8 +1014,35 @@ video {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-neutral40 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 224 224 / var(--tw-border-opacity));
+}
+
+.border-main {
+  --tw-border-opacity: 1;
+  border-color: rgb(101 176 132 / var(--tw-border-opacity));
 }
 
 .bg-neutral10 {
@@ -1027,14 +1082,6 @@ video {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .fill-main {
   fill: #65B084;
 }
@@ -1055,6 +1102,10 @@ video {
   fill: #404040;
 }
 
+.fill-neutral60 {
+  fill: #9E9E9E;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1065,6 +1116,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .p-1 {
@@ -1104,6 +1159,16 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -1211,6 +1276,11 @@ video {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .blur {
@@ -1412,6 +1482,11 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:border-main:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(101 176 132 / var(--tw-border-opacity));
+}
+
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(205 184 75 / var(--tw-bg-opacity));
@@ -1424,6 +1499,10 @@ video {
 
 .hover\:bg-\[rgba\(0\2c 0\2c 0\2c 0\.6\)\]:hover {
   background-color: rgba(0,0,0,0.6);
+}
+
+.hover\:fill-neutral10:hover {
+  fill: #FFFFFF;
 }
 
 .hover\:text-lilypads700:hover {
@@ -1454,4 +1533,19 @@ video {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.peer:checked ~ .peer-checked\:border-main {
+  --tw-border-opacity: 1;
+  border-color: rgb(101 176 132 / var(--tw-border-opacity));
+}
+
+.peer:checked ~ .peer-checked\:bg-main {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 176 132 / var(--tw-bg-opacity));
+}
+
+.peer:checked ~ .peer-checked\:text-neutral10 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
