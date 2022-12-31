@@ -76,11 +76,9 @@ var carouselVideo = new Swiper(".carousel-video", {
   },
 });
 var carouselNewsUpdate = new Swiper(".carousel-news", {
-  slidesPerView: 3,
-  grid: {
-    rows: 2,
-  },
+  slidesPerView: 2,
   spaceBetween: 30,
+  grabCursor: true,
   scrollbar: {
     el: ".swiper-scrollbar",
     draggable: true,

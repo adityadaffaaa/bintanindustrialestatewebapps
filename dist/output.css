@@ -703,6 +703,10 @@ video {
   display: grid;
 }
 
+.list-item {
+  display: list-item;
+}
+
 .hidden {
   display: none;
 }
@@ -867,12 +871,28 @@ video {
   width: full;
 }
 
-.w-\[195\] {
-  width: 195;
-}
-
 .w-\[195px\] {
   width: 195px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[55\] {
+  width: 55;
+}
+
+.w-\[557px\] {
+  width: 557px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .max-w-\[45\%\] {
@@ -968,6 +988,10 @@ video {
 
 .resize {
   resize: both;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .grid-cols-3 {
@@ -1519,6 +1543,11 @@ video {
 .carousel-video .swiper-scrollbar {
   --tw-translate-y: 2rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.carousel-news .swiper-scrollbar .swiper-scrollbar-drag {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 176 132 / var(--tw-bg-opacity));
 }
 
 .after\:absolute::after {

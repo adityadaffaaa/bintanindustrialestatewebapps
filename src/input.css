@@ -39,3 +39,7 @@
 .carousel-video .swiper-scrollbar {
   @apply translate-y-8;
 }
+
+.carousel-news .swiper-scrollbar .swiper-scrollbar-drag {
+  @apply bg-main;
+}
