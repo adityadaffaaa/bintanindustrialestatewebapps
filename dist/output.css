@@ -695,6 +695,10 @@ video {
   margin-top: 72px;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -819,6 +823,14 @@ video {
   height: 195px;
 }
 
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[3000px\] {
+  height: 3000px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -913,6 +925,10 @@ video {
 
 .w-\[\] {
   width: ;
+}
+
+.w-\[352px\] {
+  width: 352px;
 }
 
 .max-w-\[380px\] {
@@ -1218,6 +1234,16 @@ video {
   background-color: rgb(205 184 75 / var(--tw-bg-opacity));
 }
 
+.bg-lilypads200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 240 231 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E8F1EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 241 235 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/\.\.\/assets\/Acsess\.png\'\)\] {
   background-image: url('../../assets/Acsess.png');
 }
@@ -1268,6 +1294,10 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .py-4 {
@@ -1323,6 +1353,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt-\[72px\] {
@@ -1451,6 +1486,21 @@ video {
 .text-neutral40 {
   --tw-text-opacity: 1;
   color: rgb(224 224 224 / var(--tw-text-opacity));
+}
+
+.text-lilypads300 {
+  --tw-text-opacity: 1;
+  color: rgb(196 225 207 / var(--tw-text-opacity));
+}
+
+.text-lilypads500 {
+  --tw-text-opacity: 1;
+  color: rgb(137 194 160 / var(--tw-text-opacity));
+}
+
+.text-lilypads100 {
+  --tw-text-opacity: 1;
+  color: rgb(240 247 243 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1722,6 +1772,11 @@ video {
 .hover\:text-neutral10:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-main:hover {
+  --tw-text-opacity: 1;
+  color: rgb(101 176 132 / var(--tw-text-opacity));
 }
 
 .hover\:after\:w-full:hover::after {
