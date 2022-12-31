@@ -46,6 +46,9 @@ module.exports = {
       boxShadow: {
         default: "0px 4px 24px rgba(0, 0, 0, 0.1)",
       },
+      listStyleType: {
+        square: "square",
+      },
     },
   },
   plugins: [],
