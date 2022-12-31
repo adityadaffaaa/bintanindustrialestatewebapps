@@ -79,6 +79,7 @@ var carouselNewsUpdate = new Swiper(".carousel-news", {
   slidesPerView: 2,
   spaceBetween: 30,
   grabCursor: true,
+  autoplay: { duration: 800 },
   scrollbar: {
     el: ".swiper-scrollbar",
     draggable: true,
